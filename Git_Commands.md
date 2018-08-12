@@ -261,7 +261,7 @@ git checkout master
 git branch new-branch-name
 ```
 
-### Here ``` master ``` is the starting point for the new branch. Note that with these 2 commands we don't move to the new branch, as we are still in master and we would need to run ``` git checkout new-branch-name ```. The same can be achieved using one single command: ``` git checkout -b new-branch-name ```
+###### Here ``` master ``` is the starting point for the new branch. Note that with these 2 commands we don't move to the new branch, as we are still in master and we would need to run ``` git checkout new-branch-name ```. The same can be achieved using one single command: ``` git checkout -b new-branch-name ```
 
 
 ## Create a branch from a previous commit
@@ -363,7 +363,7 @@ git rm $(git ls-files --deleted)
 git ls-files --deleted -z | xargs -0 git rm
 ````
 
-### Source (and alternatives): https://stackoverflow.com/a/5147119/1391963
+###### Source (and alternatives): https://stackoverflow.com/a/5147119/1391963
 
 Show total file size difference between two commits
 Short answer: Git does not do that.
