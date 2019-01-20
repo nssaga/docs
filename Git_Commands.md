@@ -369,6 +369,14 @@ Show total file size difference between two commits
 Short answer: Git does not do that.
 Long answer: See http://stackoverflow.com/a/10847242/1391963
 
+## Reload locally deleted file from remote:
+```
+git checkout HEAD <path>
+```
+
+eg: ``` git checkout HEAD . ```
+###### . represent current directory
+
 ## Unstage (undo add) files:
 ```
 git reset HEAD file.txt
