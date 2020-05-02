@@ -395,5 +395,10 @@ grep '^git'  /root/.bash_history
 git for-each-ref --sort=-committerdate refs/heads/ | head
 ```
 
+## Switch to another branch
+```
+git checkout -b <new branch name>
+```
+
 Source: http://stackoverflow.com/q/5188320/1391963
 
