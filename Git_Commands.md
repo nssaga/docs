@@ -80,6 +80,21 @@ git remote -v
 ## See staged, non-commited changes
 ``` git diff --cached ```
 
+## Print out differences between your working directory and the index.
+``` git diff (no parameters) ```
+
+## Print out differences between your working directory and the HEAD.
+``` git diff HEAD ``` 
+
+## Show only names of changed files.
+``` git diff --name-only ``` 
+
+## Show only names and status of changed files.
+``` git diff --name-status ``` 
+
+## Word by word diff instead of line by line.
+``` git diff --color-words ``` 
+
 ## See differences between local changes and master
 ``` git diff origin/master ```
 
